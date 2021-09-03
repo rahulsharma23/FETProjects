@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <div class="try">
+            <h1 class="p1"> PAYMENT FORM</h1>
+            <hr>
+            <h2 class="ud">User Details:</h2>
+
+            <div class="udf1">
+                <label>Name:*</label>
+                <br>
+                <input style="color:black" type="text" name="name " required>
+            </div>
+            <div class="udf2">
+                <label>Gender:</label>
+
+                <input type="radio" name="gender">
+                <label>male</label>
+
+                <input type="radio" name="gender">
+                <label>female</label>
+            </div>
+            <div>
+
+                <div class="udf3">
+                    <label>Address:  <textarea style="color:black" rows=5 cols=15  name="address" required></textarea></label>
+
+                </div>
+                <div>
+                    <div class="udf4">
+
+                        <label>Email: </label>
+                        <br>
+                        <input style="color:black" type="email" name="email" required>
+
+                    </div>
+
+                    <div class="udf4">
+
+                        <label>Pincode: </label>
+                        <br>
+                        <input style="color:black" type="number" name="pin" required>
+
+                    </div>
+
+                    <h2 class="pd">Payment Details:</h2>
+                    <div>
+
+                        <label>Cardtype: </label>
+                        <select style="color:black" name="" id="" name="cardtype" required>
+            <option style="color:black" value="">select a card type</option>
+         <option style="color:black" value="">rupay</option>
+         <option style="color:black"  value="">master</option>
+         <option style="color:black"  value="">visa</option>
+        </select>
+
+                    </div>
+                    <div class="udf4">
+
+
+                        <label>Card-number: </label>
+                        <br>
+                        <input style="color:black" type="number" name="card-number" required>
+
+                    </div>
+                    <div class="udf4">
+
+
+                        <label>Expiration-date: </label>
+                        <br>
+                        <input style="color:black" type="date" name="exp-date" required>
+
+                    </div>
+                    <div class="udf4">
+
+                        <label>CVV: </label>
+                        <br>
+                        <input style="color:black" type="password" name="cvv" required>
+
+                    </div>
+                    <div class="udf5">
+
+                        <br>
+                        <input type="submit" value="pay now" name="pay now">
+
+                    </div>
+
+
+    </form>
+</body>
+
+</html>
